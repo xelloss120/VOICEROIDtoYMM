@@ -1,0 +1,9 @@
+C:\Users\120\Desktop\VOICEROIDtoYMM\VOICEROIDtoYMM\bin\Debug\VOICEROIDtoYMM.exe.config
+C:\Users\120\Desktop\VOICEROIDtoYMM\VOICEROIDtoYMM\obj\Debug\VOICEROIDtoYMM.csprojResolveAssemblyReference.cache
+C:\Users\120\Desktop\VOICEROIDtoYMM\VOICEROIDtoYMM\obj\Debug\VOICEROIDtoYMM.Properties.Resources.resources
+C:\Users\120\Desktop\VOICEROIDtoYMM\VOICEROIDtoYMM\obj\Debug\VOICEROIDtoYMM.csproj.GenerateResource.Cache
+C:\Users\120\Desktop\VOICEROIDtoYMM\VOICEROIDtoYMM\bin\Debug\VOICEROIDtoYMM.exe
+C:\Users\120\Desktop\VOICEROIDtoYMM\VOICEROIDtoYMM\bin\Debug\VOICEROIDtoYMM.pdb
+C:\Users\120\Desktop\VOICEROIDtoYMM\VOICEROIDtoYMM\obj\Debug\VOICEROIDtoYMM.exe
+C:\Users\120\Desktop\VOICEROIDtoYMM\VOICEROIDtoYMM\obj\Debug\VOICEROIDtoYMM.pdb
+C:\Users\120\Desktop\VOICEROIDtoYMM\VOICEROIDtoYMM\obj\Debug\VOICEROIDtoYMM.VOICEROIDtoYMM.resources
