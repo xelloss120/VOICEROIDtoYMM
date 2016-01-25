@@ -28,81 +28,95 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SendButton = new System.Windows.Forms.Button();
-            this.VoiceRoidTitleBox = new System.Windows.Forms.TextBox();
+            this.SendButton1 = new System.Windows.Forms.Button();
+            this.VoiceRoidTitleBox1 = new System.Windows.Forms.TextBox();
             this.NumberBox = new System.Windows.Forms.TextBox();
             this.WaitBox = new System.Windows.Forms.TextBox();
             this.FolderSelectButton = new System.Windows.Forms.Button();
-            this.FileNameBox = new System.Windows.Forms.TextBox();
+            this.VoiceRoidTitleBox2 = new System.Windows.Forms.TextBox();
+            this.SendButton2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // SendButton
+            // SendButton1
             // 
-            this.SendButton.Location = new System.Drawing.Point(126, 37);
-            this.SendButton.Name = "SendButton";
-            this.SendButton.Size = new System.Drawing.Size(100, 69);
-            this.SendButton.TabIndex = 0;
-            this.SendButton.Text = "Send";
-            this.SendButton.UseVisualStyleBackColor = true;
-            this.SendButton.Click += new System.EventHandler(this.SendButton_Click);
+            this.SendButton1.Location = new System.Drawing.Point(124, 37);
+            this.SendButton1.Name = "SendButton1";
+            this.SendButton1.Size = new System.Drawing.Size(50, 19);
+            this.SendButton1.TabIndex = 4;
+            this.SendButton1.Text = "Send";
+            this.SendButton1.UseVisualStyleBackColor = true;
+            this.SendButton1.Click += new System.EventHandler(this.SendButton1_Click);
             // 
-            // VoiceRoidTitleBox
+            // VoiceRoidTitleBox1
             // 
-            this.VoiceRoidTitleBox.Location = new System.Drawing.Point(12, 12);
-            this.VoiceRoidTitleBox.Name = "VoiceRoidTitleBox";
-            this.VoiceRoidTitleBox.Size = new System.Drawing.Size(100, 19);
-            this.VoiceRoidTitleBox.TabIndex = 1;
-            this.VoiceRoidTitleBox.Text = "茜";
+            this.VoiceRoidTitleBox1.Location = new System.Drawing.Point(12, 37);
+            this.VoiceRoidTitleBox1.Name = "VoiceRoidTitleBox1";
+            this.VoiceRoidTitleBox1.Size = new System.Drawing.Size(106, 19);
+            this.VoiceRoidTitleBox1.TabIndex = 3;
+            this.VoiceRoidTitleBox1.Text = "茜";
             // 
             // NumberBox
             // 
-            this.NumberBox.Location = new System.Drawing.Point(12, 62);
+            this.NumberBox.Location = new System.Drawing.Point(12, 12);
             this.NumberBox.Name = "NumberBox";
-            this.NumberBox.Size = new System.Drawing.Size(100, 19);
-            this.NumberBox.TabIndex = 2;
+            this.NumberBox.Size = new System.Drawing.Size(50, 19);
+            this.NumberBox.TabIndex = 0;
             this.NumberBox.Text = "0";
             // 
             // WaitBox
             // 
             this.WaitBox.BackColor = System.Drawing.SystemColors.Control;
-            this.WaitBox.Location = new System.Drawing.Point(12, 87);
+            this.WaitBox.Location = new System.Drawing.Point(68, 12);
             this.WaitBox.Name = "WaitBox";
-            this.WaitBox.Size = new System.Drawing.Size(100, 19);
-            this.WaitBox.TabIndex = 3;
+            this.WaitBox.Size = new System.Drawing.Size(50, 19);
+            this.WaitBox.TabIndex = 1;
             this.WaitBox.Text = "100";
             // 
             // FolderSelectButton
             // 
-            this.FolderSelectButton.Location = new System.Drawing.Point(126, 12);
+            this.FolderSelectButton.Location = new System.Drawing.Point(124, 12);
             this.FolderSelectButton.Name = "FolderSelectButton";
-            this.FolderSelectButton.Size = new System.Drawing.Size(100, 19);
-            this.FolderSelectButton.TabIndex = 4;
-            this.FolderSelectButton.Text = "フォルダ選択";
+            this.FolderSelectButton.Size = new System.Drawing.Size(50, 19);
+            this.FolderSelectButton.TabIndex = 2;
+            this.FolderSelectButton.Text = "Out";
             this.FolderSelectButton.UseVisualStyleBackColor = true;
             this.FolderSelectButton.Click += new System.EventHandler(this.FolderSelectButton_Click);
             // 
-            // FileNameBox
+            // VoiceRoidTitleBox2
             // 
-            this.FileNameBox.Location = new System.Drawing.Point(12, 37);
-            this.FileNameBox.Name = "FileNameBox";
-            this.FileNameBox.Size = new System.Drawing.Size(100, 19);
-            this.FileNameBox.TabIndex = 5;
-            this.FileNameBox.Text = "akane";
+            this.VoiceRoidTitleBox2.Location = new System.Drawing.Point(12, 62);
+            this.VoiceRoidTitleBox2.Name = "VoiceRoidTitleBox2";
+            this.VoiceRoidTitleBox2.Size = new System.Drawing.Size(106, 19);
+            this.VoiceRoidTitleBox2.TabIndex = 5;
+            this.VoiceRoidTitleBox2.Text = "葵";
+            // 
+            // SendButton2
+            // 
+            this.SendButton2.Location = new System.Drawing.Point(124, 62);
+            this.SendButton2.Name = "SendButton2";
+            this.SendButton2.Size = new System.Drawing.Size(50, 19);
+            this.SendButton2.TabIndex = 6;
+            this.SendButton2.Text = "Send";
+            this.SendButton2.UseVisualStyleBackColor = true;
+            this.SendButton2.Click += new System.EventHandler(this.SendButton2_Click);
             // 
             // VOICEROIDtoYMM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(238, 119);
-            this.Controls.Add(this.FileNameBox);
+            this.ClientSize = new System.Drawing.Size(184, 92);
+            this.Controls.Add(this.VoiceRoidTitleBox2);
+            this.Controls.Add(this.SendButton2);
             this.Controls.Add(this.FolderSelectButton);
             this.Controls.Add(this.WaitBox);
             this.Controls.Add(this.NumberBox);
-            this.Controls.Add(this.VoiceRoidTitleBox);
-            this.Controls.Add(this.SendButton);
+            this.Controls.Add(this.VoiceRoidTitleBox1);
+            this.Controls.Add(this.SendButton1);
+            this.KeyPreview = true;
             this.Name = "VOICEROIDtoYMM";
             this.Text = "VOICEROIDtoYMM";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.VOICEROIDtoYMM_FormClosed);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.VOICEROIDtoYMM_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -110,12 +124,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button SendButton;
-        private System.Windows.Forms.TextBox VoiceRoidTitleBox;
+        private System.Windows.Forms.Button SendButton1;
+        private System.Windows.Forms.TextBox VoiceRoidTitleBox1;
         private System.Windows.Forms.TextBox NumberBox;
         private System.Windows.Forms.TextBox WaitBox;
         private System.Windows.Forms.Button FolderSelectButton;
-        private System.Windows.Forms.TextBox FileNameBox;
+        private System.Windows.Forms.TextBox VoiceRoidTitleBox2;
+        private System.Windows.Forms.Button SendButton2;
     }
 }
 
