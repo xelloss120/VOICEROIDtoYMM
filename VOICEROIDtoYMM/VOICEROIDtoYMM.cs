@@ -79,7 +79,7 @@ namespace VOICEROIDtoYMM
             Send("{ENTER}");
             Send(path);
             Send("{ENTER}");
-            Send("+{HOME}{DELETE}");
+            Send("+^{HOME}{DELETE}");
 
             SetForegroundWindow(yukkuriMovieMakerProcess.MainWindowHandle);
             Send("^{TAB}");
