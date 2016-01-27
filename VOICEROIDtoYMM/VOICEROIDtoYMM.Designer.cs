@@ -54,6 +54,7 @@
             this.VoiceRoidTitleBox1.Size = new System.Drawing.Size(106, 19);
             this.VoiceRoidTitleBox1.TabIndex = 3;
             this.VoiceRoidTitleBox1.Text = "茜";
+            this.VoiceRoidTitleBox1.TextChanged += new System.EventHandler(this.VoiceRoidTitleBox1_TextChanged);
             // 
             // NumberBox
             // 
@@ -89,6 +90,7 @@
             this.VoiceRoidTitleBox2.Size = new System.Drawing.Size(106, 19);
             this.VoiceRoidTitleBox2.TabIndex = 5;
             this.VoiceRoidTitleBox2.Text = "葵";
+            this.VoiceRoidTitleBox2.TextChanged += new System.EventHandler(this.VoiceRoidTitleBox2_TextChanged);
             // 
             // SendButton2
             // 
